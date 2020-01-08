@@ -1,0 +1,6 @@
+framework module Pods_AcatantMaster {
+  umbrella header "Pods-AcatantMaster-umbrella.h"
+
+  export *
+  module * { export * }
+}

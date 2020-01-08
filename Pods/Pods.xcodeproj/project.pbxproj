@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B7D3DE941B51AF3F2676419F95E4C3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		1E2E6432DE1AB5A7D702DEDFF06F5278 /* YXWaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADD43CCFC45AA5FBFD1FAE4DE1C4357 /* YXWaveView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C096A97A17CFD84FEDC406963CAF078 /* Pods-AcatantMaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CD0348E28374420F5F5A745F191B79 /* Pods-AcatantMaster-dummy.m */; };
+		71A82F1BE123ECFE0A756D177383E20F /* YXWaveView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2835CA35B2AE0AF4C99FF03501124AE4 /* YXWaveView-dummy.m */; };
+		7E6096E2BE718F1ECCE6B0C12172EABB /* Pods-AcatantMaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC11C390BDEC1ED3A7C936ABA3935FE6 /* Pods-AcatantMaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9B98C1B2EEFAD08C2128898B0376D77 /* YXWaveView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A28B1A0BDF6405F376B428632A81BD /* YXWaveView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0EB0E21FD35C174457FB5E18ACC89AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		FD4739F2D87CCB85EBC55E5B3845DB63 /* YXWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD75F066F02DC88B3EA9B0B36D0D4E /* YXWaveView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E2E4CA511A18033BCC2E8C0BACFEA73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC25608F0A9FACE6D95D3A9E7642ADDA;
+			remoteInfo = YXWaveView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26706E8DB7024F18FD8673000AB9CC90 /* Pods-AcatantMaster-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AcatantMaster-acknowledgements.plist"; sourceTree = "<group>"; };
+		27A28B1A0BDF6405F376B428632A81BD /* YXWaveView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YXWaveView-umbrella.h"; sourceTree = "<group>"; };
+		2835CA35B2AE0AF4C99FF03501124AE4 /* YXWaveView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YXWaveView-dummy.m"; sourceTree = "<group>"; };
+		2CCD75F066F02DC88B3EA9B0B36D0D4E /* YXWaveView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YXWaveView.swift; path = YXWaveView/YXWaveView.swift; sourceTree = "<group>"; };
+		3B850F892E909227352FF6916A7171A1 /* Pods_AcatantMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AcatantMaster.framework; path = "Pods-AcatantMaster.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD71DAFB6B7FCFE065F8D364D169F00 /* YXWaveView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YXWaveView.framework; path = YXWaveView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CD0348E28374420F5F5A745F191B79 /* Pods-AcatantMaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AcatantMaster-dummy.m"; sourceTree = "<group>"; };
+		74E02C85FA2BC9834DE839EB55C99792 /* Pods-AcatantMaster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AcatantMaster.modulemap"; sourceTree = "<group>"; };
+		8ADD43CCFC45AA5FBFD1FAE4DE1C4357 /* YXWaveView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YXWaveView.h; path = YXWaveView/YXWaveView.h; sourceTree = "<group>"; };
+		8D69FC4759D133E53F128CF4A0A2D22F /* Pods-AcatantMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AcatantMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		924A7088E078F4FBBF7E353A1E5A4A71 /* YXWaveView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YXWaveView-Info.plist"; sourceTree = "<group>"; };
+		9AAF136DAC225121FCBD8EFE3E528465 /* Pods-AcatantMaster-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AcatantMaster-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE051C7754AB3E0D693E073C02E596E5 /* Pods-AcatantMaster-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AcatantMaster-Info.plist"; sourceTree = "<group>"; };
+		B103D2E2992508C7A85A32772C99FC8A /* YXWaveView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YXWaveView-prefix.pch"; sourceTree = "<group>"; };
+		B984A3F2D14942E510CD3643E11580BB /* Pods-AcatantMaster-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AcatantMaster-frameworks.sh"; sourceTree = "<group>"; };
+		BF30F2460DDBD62C864943CC42C5A200 /* YXWaveView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YXWaveView.xcconfig; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFCD13420E56A4D76C3C40F55DC1DF06 /* YXWaveView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YXWaveView.modulemap; sourceTree = "<group>"; };
+		E4BC8D3D8CA0D7D409945B54C56BE722 /* Pods-AcatantMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AcatantMaster.release.xcconfig"; sourceTree = "<group>"; };
+		EC11C390BDEC1ED3A7C936ABA3935FE6 /* Pods-AcatantMaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AcatantMaster-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D388D5541F36D3BA9761EE40BF667CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7D3DE941B51AF3F2676419F95E4C3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88A180FFD78266493E3EAE665D98E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EB0E21FD35C174457FB5E18ACC89AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EA5081BA76AD84F37D0A01A29D6CBCD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A166409DACC39D4433E9754C88556F96 /* Pods-AcatantMaster */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		188648F4309A1E70129B04F020BE361F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B850F892E909227352FF6916A7171A1 /* Pods_AcatantMaster.framework */,
+				3CD71DAFB6B7FCFE065F8D364D169F00 /* YXWaveView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18916A20527259B122DC3692E04E9AE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE9EC680B843AE92462488D7DDEE6A14 /* YXWaveView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A166409DACC39D4433E9754C88556F96 /* Pods-AcatantMaster */ = {
+			isa = PBXGroup;
+			children = (
+				74E02C85FA2BC9834DE839EB55C99792 /* Pods-AcatantMaster.modulemap */,
+				9AAF136DAC225121FCBD8EFE3E528465 /* Pods-AcatantMaster-acknowledgements.markdown */,
+				26706E8DB7024F18FD8673000AB9CC90 /* Pods-AcatantMaster-acknowledgements.plist */,
+				73CD0348E28374420F5F5A745F191B79 /* Pods-AcatantMaster-dummy.m */,
+				B984A3F2D14942E510CD3643E11580BB /* Pods-AcatantMaster-frameworks.sh */,
+				AE051C7754AB3E0D693E073C02E596E5 /* Pods-AcatantMaster-Info.plist */,
+				EC11C390BDEC1ED3A7C936ABA3935FE6 /* Pods-AcatantMaster-umbrella.h */,
+				8D69FC4759D133E53F128CF4A0A2D22F /* Pods-AcatantMaster.debug.xcconfig */,
+				E4BC8D3D8CA0D7D409945B54C56BE722 /* Pods-AcatantMaster.release.xcconfig */,
+			);
+			name = "Pods-AcatantMaster";
+			path = "Target Support Files/Pods-AcatantMaster";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				18916A20527259B122DC3692E04E9AE1 /* Pods */,
+				188648F4309A1E70129B04F020BE361F /* Products */,
+				0EA5081BA76AD84F37D0A01A29D6CBCD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E38C6461ED29AFAAB513E23D6F51698D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFCD13420E56A4D76C3C40F55DC1DF06 /* YXWaveView.modulemap */,
+				BF30F2460DDBD62C864943CC42C5A200 /* YXWaveView.xcconfig */,
+				2835CA35B2AE0AF4C99FF03501124AE4 /* YXWaveView-dummy.m */,
+				924A7088E078F4FBBF7E353A1E5A4A71 /* YXWaveView-Info.plist */,
+				B103D2E2992508C7A85A32772C99FC8A /* YXWaveView-prefix.pch */,
+				27A28B1A0BDF6405F376B428632A81BD /* YXWaveView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YXWaveView";
+			sourceTree = "<group>";
+		};
+		FE9EC680B843AE92462488D7DDEE6A14 /* YXWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				8ADD43CCFC45AA5FBFD1FAE4DE1C4357 /* YXWaveView.h */,
+				2CCD75F066F02DC88B3EA9B0B36D0D4E /* YXWaveView.swift */,
+				E38C6461ED29AFAAB513E23D6F51698D /* Support Files */,
+			);
+			name = YXWaveView;
+			path = YXWaveView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20A8A9DCA1005A1FC679000C3B792167 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6096E2BE718F1ECCE6B0C12172EABB /* Pods-AcatantMaster-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B9CB5C982A9CAD00FD40B9B0BFDE0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B98C1B2EEFAD08C2128898B0376D77 /* YXWaveView-umbrella.h in Headers */,
+				1E2E6432DE1AB5A7D702DEDFF06F5278 /* YXWaveView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		180DEF7FE757B21466823CE2CF15883D /* Pods-AcatantMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6365C23E4CEEA993E2CC722F90FD77 /* Build configuration list for PBXNativeTarget "Pods-AcatantMaster" */;
+			buildPhases = (
+				20A8A9DCA1005A1FC679000C3B792167 /* Headers */,
+				D92E12CC6DC727F5D700FDB0C741D973 /* Sources */,
+				D88A180FFD78266493E3EAE665D98E38 /* Frameworks */,
+				132DB8FF1A5BBD980AD8E5C509F1FD43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF8E9FC8394A5633899CCAE239B43432 /* PBXTargetDependency */,
+			);
+			name = "Pods-AcatantMaster";
+			productName = "Pods-AcatantMaster";
+			productReference = 3B850F892E909227352FF6916A7171A1 /* Pods_AcatantMaster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC25608F0A9FACE6D95D3A9E7642ADDA /* YXWaveView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2C9B98D26486C812A0A88A430865AE /* Build configuration list for PBXNativeTarget "YXWaveView" */;
+			buildPhases = (
+				C6B9CB5C982A9CAD00FD40B9B0BFDE0E /* Headers */,
+				8C28507C4D0FB7FD7E1A37CDFBBAABBE /* Sources */,
+				D388D5541F36D3BA9761EE40BF667CA2 /* Frameworks */,
+				44DD22774114E8673B6FF7238C377DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXWaveView;
+			productName = YXWaveView;
+			productReference = 3CD71DAFB6B7FCFE065F8D364D169F00 /* YXWaveView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 188648F4309A1E70129B04F020BE361F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180DEF7FE757B21466823CE2CF15883D /* Pods-AcatantMaster */,
+				DC25608F0A9FACE6D95D3A9E7642ADDA /* YXWaveView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		132DB8FF1A5BBD980AD8E5C509F1FD43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DD22774114E8673B6FF7238C377DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C28507C4D0FB7FD7E1A37CDFBBAABBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A82F1BE123ECFE0A756D177383E20F /* YXWaveView-dummy.m in Sources */,
+				FD4739F2D87CCB85EBC55E5B3845DB63 /* YXWaveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92E12CC6DC727F5D700FDB0C741D973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C096A97A17CFD84FEDC406963CAF078 /* Pods-AcatantMaster-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF8E9FC8394A5633899CCAE239B43432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YXWaveView;
+			target = DC25608F0A9FACE6D95D3A9E7642ADDA /* YXWaveView */;
+			targetProxy = 1E2E4CA511A18033BCC2E8C0BACFEA73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		132CB41E81B9CD20A8DD27EF0D2709C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF30F2460DDBD62C864943CC42C5A200 /* YXWaveView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YXWaveView/YXWaveView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YXWaveView/YXWaveView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YXWaveView/YXWaveView.modulemap";
+				PRODUCT_MODULE_NAME = YXWaveView;
+				PRODUCT_NAME = YXWaveView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		191B6CBD4DE050441F05AB577F1CFC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF30F2460DDBD62C864943CC42C5A200 /* YXWaveView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YXWaveView/YXWaveView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YXWaveView/YXWaveView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YXWaveView/YXWaveView.modulemap";
+				PRODUCT_MODULE_NAME = YXWaveView;
+				PRODUCT_NAME = YXWaveView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D2CD2089639CA0DAEB1C0F3C3757AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D69FC4759D133E53F128CF4A0A2D22F /* Pods-AcatantMaster.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AcatantMaster/Pods-AcatantMaster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AcatantMaster/Pods-AcatantMaster.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53460E22BDDAF1B215A5EFC1DC92EC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A4E704E99D32B43F3DA54354785DE313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FE68AD1AE38289D557EBB2794BF03DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4BC8D3D8CA0D7D409945B54C56BE722 /* Pods-AcatantMaster.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AcatantMaster/Pods-AcatantMaster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AcatantMaster/Pods-AcatantMaster.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F6365C23E4CEEA993E2CC722F90FD77 /* Build configuration list for PBXNativeTarget "Pods-AcatantMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2CD2089639CA0DAEB1C0F3C3757AB4 /* Debug */,
+				FE68AD1AE38289D557EBB2794BF03DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53460E22BDDAF1B215A5EFC1DC92EC0A /* Debug */,
+				A4E704E99D32B43F3DA54354785DE313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2C9B98D26486C812A0A88A430865AE /* Build configuration list for PBXNativeTarget "YXWaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191B6CBD4DE050441F05AB577F1CFC42 /* Debug */,
+				132CB41E81B9CD20A8DD27EF0D2709C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

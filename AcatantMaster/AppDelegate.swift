@@ -8,16 +8,44 @@
 
 import UIKit
 import CoreData
+import UserNotifications
+
+protocol eventDelegate {
+  func happen(status: String)
+}
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
   var window: UIWindow?
-
+  var delegate: eventDelegate!
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+    UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
+      if let error = error {
+        print("D'oh: \(error.localizedDescription)")
+      } else {
+        application.registerForRemoteNotifications()
+      }
+    }
+    UNUserNotificationCenter.current().delegate = self
     return true
+  }
+  
+  func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+    let body = notification.request.content.body
+    print(body)
+    if body.contains("enter") {
+      delegate.happen(status: "enter")
+    }
+    else if body.contains("exit") {
+      delegate.happen(status: "exit")
+    }
+    else if body.contains("reminder") {
+      delegate.happen(status: "reminder")
+    }
+    completionHandler([.alert, .sound, .badge])
   }
 
   func applicationWillResignActive(_ application: UIApplication) {

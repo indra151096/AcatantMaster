@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C65579EA8BAF4C279E77A16 /* Pods_AcatantMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3888AB1C3A77E24767FFB5E /* Pods_AcatantMaster.framework */; };
 		8E44FD0B233312AB00993A6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E44FD0A233312AB00993A6F /* AppDelegate.swift */; };
 		8E44FD0D233312AB00993A6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E44FD0C233312AB00993A6F /* ViewController.swift */; };
 		8E44FD10233312AB00993A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E44FD0E233312AB00993A6F /* Main.storyboard */; };
 		8E44FD13233312AB00993A6F /* AcatantMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E44FD11233312AB00993A6F /* AcatantMaster.xcdatamodeld */; };
 		8E44FD15233312AE00993A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E44FD14233312AE00993A6F /* Assets.xcassets */; };
 		8E44FD18233312AE00993A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E44FD16233312AE00993A6F /* LaunchScreen.storyboard */; };
+		8E44FD2223331C3300993A6F /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E44FD2123331C3300993A6F /* CloudKit.framework */; };
+		8EFDD8C323337B47006A6B07 /* AcatantSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDD8C223337B47006A6B07 /* AcatantSentimentClassifier.mlmodel */; };
+		8EFDD8C52333C104006A6B07 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDD8C42333C104006A6B07 /* MainScreenViewController.swift */; };
+		8EFDD8C72333C574006A6B07 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDD8C62333C574006A6B07 /* Extension.swift */; };
+		8EFDD8C92333F70A006A6B07 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDD8C82333F70A006A6B07 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62307DFF34B0CA7360610FB0 /* Pods-AcatantMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcatantMaster.debug.xcconfig"; path = "Target Support Files/Pods-AcatantMaster/Pods-AcatantMaster.debug.xcconfig"; sourceTree = "<group>"; };
 		8E44FD07233312AB00993A6F /* AcatantMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcatantMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E44FD0A233312AB00993A6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E44FD0C233312AB00993A6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,14 @@
 		8E44FD14233312AE00993A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E44FD17233312AE00993A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E44FD19233312AE00993A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E44FD1F2333130B00993A6F /* AcatantMaster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AcatantMaster.entitlements; sourceTree = "<group>"; };
+		8E44FD2123331C3300993A6F /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		8EFDD8C223337B47006A6B07 /* AcatantSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AcatantSentimentClassifier.mlmodel; sourceTree = "<group>"; };
+		8EFDD8C42333C104006A6B07 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		8EFDD8C62333C574006A6B07 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8EFDD8C82333F70A006A6B07 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		B3888AB1C3A77E24767FFB5E /* Pods_AcatantMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcatantMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6373C09385B4A8B192F4F0D /* Pods-AcatantMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcatantMaster.release.xcconfig"; path = "Target Support Files/Pods-AcatantMaster/Pods-AcatantMaster.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +46,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E44FD2223331C3300993A6F /* CloudKit.framework in Frameworks */,
+				5C65579EA8BAF4C279E77A16 /* Pods_AcatantMaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33920CB2D80BBF537C801931 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62307DFF34B0CA7360610FB0 /* Pods-AcatantMaster.debug.xcconfig */,
+				D6373C09385B4A8B192F4F0D /* Pods-AcatantMaster.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8E44FCFE233312AB00993A6F = {
 			isa = PBXGroup;
 			children = (
 				8E44FD09233312AB00993A6F /* AcatantMaster */,
 				8E44FD08233312AB00993A6F /* Products */,
+				8E44FD2023331C3300993A6F /* Frameworks */,
+				33920CB2D80BBF537C801931 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +84,8 @@
 		8E44FD09233312AB00993A6F /* AcatantMaster */ = {
 			isa = PBXGroup;
 			children = (
+				8EFDD8C223337B47006A6B07 /* AcatantSentimentClassifier.mlmodel */,
+				8E44FD1F2333130B00993A6F /* AcatantMaster.entitlements */,
 				8E44FD0A233312AB00993A6F /* AppDelegate.swift */,
 				8E44FD0C233312AB00993A6F /* ViewController.swift */,
 				8E44FD0E233312AB00993A6F /* Main.storyboard */,
@@ -63,8 +93,20 @@
 				8E44FD16233312AE00993A6F /* LaunchScreen.storyboard */,
 				8E44FD19233312AE00993A6F /* Info.plist */,
 				8E44FD11233312AB00993A6F /* AcatantMaster.xcdatamodeld */,
+				8EFDD8C42333C104006A6B07 /* MainScreenViewController.swift */,
+				8EFDD8C62333C574006A6B07 /* Extension.swift */,
+				8EFDD8C82333F70A006A6B07 /* ResultViewController.swift */,
 			);
 			path = AcatantMaster;
+			sourceTree = "<group>";
+		};
+		8E44FD2023331C3300993A6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E44FD2123331C3300993A6F /* CloudKit.framework */,
+				B3888AB1C3A77E24767FFB5E /* Pods_AcatantMaster.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E44FD1C233312AE00993A6F /* Build configuration list for PBXNativeTarget "AcatantMaster" */;
 			buildPhases = (
+				0AB2B5B47657E63CE4384A85 /* [CP] Check Pods Manifest.lock */,
 				8E44FD03233312AB00993A6F /* Sources */,
 				8E44FD04233312AB00993A6F /* Frameworks */,
 				8E44FD05233312AB00993A6F /* Resources */,
+				B2F39E01B81A543B38499EC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +143,17 @@
 				TargetAttributes = {
 					8E44FD06233312AB00993A6F = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -133,13 +188,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AB2B5B47657E63CE4384A85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AcatantMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F39E01B81A543B38499EC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AcatantMaster/Pods-AcatantMaster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YXWaveView/YXWaveView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YXWaveView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AcatantMaster/Pods-AcatantMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E44FD03233312AB00993A6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFDD8C52333C104006A6B07 /* MainScreenViewController.swift in Sources */,
 				8E44FD0D233312AB00993A6F /* ViewController.swift in Sources */,
+				8EFDD8C92333F70A006A6B07 /* ResultViewController.swift in Sources */,
 				8E44FD0B233312AB00993A6F /* AppDelegate.swift in Sources */,
+				8EFDD8C72333C574006A6B07 /* Extension.swift in Sources */,
+				8EFDD8C323337B47006A6B07 /* AcatantSentimentClassifier.mlmodel in Sources */,
 				8E44FD13233312AB00993A6F /* AcatantMaster.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,8 +390,10 @@
 		};
 		8E44FD1D233312AE00993A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62307DFF34B0CA7360610FB0 /* Pods-AcatantMaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AcatantMaster/AcatantMaster.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26R5URXZ3V;
 				INFOPLIST_FILE = AcatantMaster/Info.plist;
@@ -302,8 +410,10 @@
 		};
 		8E44FD1E233312AE00993A6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6373C09385B4A8B192F4F0D /* Pods-AcatantMaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AcatantMaster/AcatantMaster.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26R5URXZ3V;
 				INFOPLIST_FILE = AcatantMaster/Info.plist;
